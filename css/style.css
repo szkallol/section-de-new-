@@ -1,0 +1,259 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+		margin: 0;
+		font-family: 'Lato', sans-serif;
+
+	}
+		header {
+			 
+  text-align: center;
+
+
+
+			
+		
+          }
+          div.title{
+          	background: #fca53c;
+          padding: 25px 10px;
+
+           }
+			
+		.title p      {
+                color: black;
+                margin: 0;
+                font-size: 31px;
+                text-transform: uppercase;
+                text-align: center;
+                letter-spacing: 2px;
+                 text-shadow: 0 0 3px #FF0000;
+                
+   }
+			.menubar{
+    background: #f93c3c00;
+    
+    	
+    
+}
+			ul{
+    margin: 0;
+    padding: 12px 0px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+
+    
+}
+			li{display: inline-block;
+
+			}
+
+            a{
+				
+font-size: 20px;
+				
+text-decoration: none;
+				
+padding: 5px 16px;
+				
+background:white;
+				
+color: black;
+				
+display: block;
+				
+border-radius: 60px;
+				
+border: 2px solid black;
+		}
+a:hover{
+	color:white;
+	background: #fc3c3c;
+}	
+
+
+.banner-section {
+	padding: 50px;
+	background: white;
+	}	
+.banner{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner img{
+
+width: 100%;
+
+border-radius: 15px;
+
+box-shadow: 0px 0px 16px 1px black;
+
+max-width: 100%;
+
+transition: all .03s cubic-bezier(1, -0.07, 0, 1.35);
+}
+.banner img:hover{
+	box-shadow: 0px 0px 0px 0px #4b503e;
+
+}
+.content-section{padding: 37px 0;}
+.content{
+    width: 60%;
+    margin: auto;
+}
+.content h1{
+    font-size: 56px;
+    margin: 0;
+    color: white;
+    FONT-WEIGHT: 700;
+
+}
+
+ .content p{
+    font-size: 20px;
+    padding: 1px;
+    color: black;
+    background: #feebd4;
+  }
+  .content p strong{
+  	
+font-weight: 600;
+  	
+background: #fca53c;
+  	
+color: white;
+  	
+padding: 0 15px;
+  	
+display: inline-block;
+  } 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.box 
+{
+	margin-right: auto;
+	background: #f73c3c;
+	color: white;
+	width: 670px;
+	padding: 20px 25px;
+	border-radius: 76px 0px;
+	margin-left: auto;
+	box-shadow: 10px 10px grey;
+	margin-top:50px;
+}
+
+h1 {
+	font-size: 26px;
+	box-shadow: 1px 0px 7px black;
+	color: #ffffff;
+	border-radius: 5px;
+	text-align: center;
+	background-color: black;
+
+}
+
+img
+{
+    
+border-radius: 50% ;
+border: dashed  black;
+    
+max-width: 100%;}
+.box p
+{
+ 
+
+
+
+text-align: center;
+
+
+
+color: white;
+font-size: 18px;
+
+}
+.container{
+
+width: 1200px;
+
+margin: auto;
+
+flex-wrap: wrap;
+
+display: flex;
+}
+.Product{
+    
+padding: 50px;
+    
+flex-basis: 33.33%;
+    }
+.black{
+
+background: white;
+}
+.white{
+
+background: white;
+
+box-shadow: 0 0 13px white;
+}
+h3{
+   font-size: 24px;
+	box-shadow: 1px 0px 7px black;
+	color: #ffffff;
+	border-radius: 5px;
+	text-align: center;
+	background-color: black;
+}
+h3 strong{}
+h3 span{
+    font-weight: 300;
+    text-decoration: line-through;
+}
+h2{
+	font-size: 26px;
+	box-shadow: 1px 0px 7px black;
+	color: black;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	}
+	button{
+		background: white;
+		color: black;
+		font-size: 20px;
+		padding: 10px 37px;
+		border: 2px solid black;
+		border-radius: 30px;
+		cursor: pointer;
+		text-shadow: 2px 2px 4px #000000
+}
+button:hover{
+	background: #fc3c3c;
+}
+.product-box{
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px grey;
+	padding: 30px;
+}
+@media screen and (min-width: 512px) {
+ 
+}
+
+		
+
+
